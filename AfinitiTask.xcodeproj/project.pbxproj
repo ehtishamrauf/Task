@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01EA1323E6568D03DE068E88 /* Pods_AfinitiTask_AfinitiTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550535203367ED3AD0B9EF48 /* Pods_AfinitiTask_AfinitiTaskUITests.framework */; };
 		200F991A26C7B71E0048BA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F991926C7B71E0048BA91 /* AppDelegate.swift */; };
 		200F991C26C7B71E0048BA91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F991B26C7B71E0048BA91 /* SceneDelegate.swift */; };
-		200F991E26C7B71E0048BA91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F991D26C7B71E0048BA91 /* ViewController.swift */; };
+		200F991E26C7B71E0048BA91 /* MultiThreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F991D26C7B71E0048BA91 /* MultiThreadingViewController.swift */; };
 		200F992126C7B71E0048BA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200F991F26C7B71E0048BA91 /* Main.storyboard */; };
 		200F992326C7B71F0048BA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200F992226C7B71F0048BA91 /* Assets.xcassets */; };
 		200F992626C7B71F0048BA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200F992426C7B71F0048BA91 /* LaunchScreen.storyboard */; };
 		200F993126C7B71F0048BA91 /* AfinitiTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F993026C7B71F0048BA91 /* AfinitiTaskTests.swift */; };
 		200F993C26C7B71F0048BA91 /* AfinitiTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200F993B26C7B71F0048BA91 /* AfinitiTaskUITests.swift */; };
+		3115BDD4BE58E6BC7ACEBA74 /* Pods_AfinitiTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27223026AE69367DF234D50D /* Pods_AfinitiTask.framework */; };
+		3944C610A4B7C8D3D3A8AF03 /* Pods_AfinitiTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F2D77C75BD3E5C7595F31 /* Pods_AfinitiTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E90418365859540BF64955B /* Pods-AfinitiTask-AfinitiTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTask-AfinitiTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-AfinitiTask-AfinitiTaskUITests/Pods-AfinitiTask-AfinitiTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		200F991626C7B71E0048BA91 /* AfinitiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfinitiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		200F991926C7B71E0048BA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		200F991B26C7B71E0048BA91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		200F991D26C7B71E0048BA91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		200F991D26C7B71E0048BA91 /* MultiThreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadingViewController.swift; sourceTree = "<group>"; };
 		200F992026C7B71E0048BA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		200F992226C7B71F0048BA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		200F992526C7B71F0048BA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		200F993726C7B71F0048BA91 /* AfinitiTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfinitiTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200F993B26C7B71F0048BA91 /* AfinitiTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfinitiTaskUITests.swift; sourceTree = "<group>"; };
 		200F993D26C7B71F0048BA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27223026AE69367DF234D50D /* Pods_AfinitiTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfinitiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550535203367ED3AD0B9EF48 /* Pods_AfinitiTask_AfinitiTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfinitiTask_AfinitiTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAA21D58F6DC57599637FBD /* Pods-AfinitiTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTask.release.xcconfig"; path = "Target Support Files/Pods-AfinitiTask/Pods-AfinitiTask.release.xcconfig"; sourceTree = "<group>"; };
+		998DBA55B175C38C3413AABE /* Pods-AfinitiTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-AfinitiTaskTests/Pods-AfinitiTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A10A046D84990BAD099E709 /* Pods-AfinitiTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTask.debug.xcconfig"; path = "Target Support Files/Pods-AfinitiTask/Pods-AfinitiTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D5F61EB7D7970E9AA99654 /* Pods-AfinitiTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTaskTests.release.xcconfig"; path = "Target Support Files/Pods-AfinitiTaskTests/Pods-AfinitiTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA4844648D55E39C3343732C /* Pods-AfinitiTask-AfinitiTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfinitiTask-AfinitiTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-AfinitiTask-AfinitiTaskUITests/Pods-AfinitiTask-AfinitiTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9F2D77C75BD3E5C7595F31 /* Pods_AfinitiTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfinitiTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3115BDD4BE58E6BC7ACEBA74 /* Pods_AfinitiTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3944C610A4B7C8D3D3A8AF03 /* Pods_AfinitiTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EA1323E6568D03DE068E88 /* Pods_AfinitiTask_AfinitiTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				200F992F26C7B71F0048BA91 /* AfinitiTaskTests */,
 				200F993A26C7B71F0048BA91 /* AfinitiTaskUITests */,
 				200F991726C7B71E0048BA91 /* Products */,
+				B37D074324DE09F1F2586E46 /* Pods */,
+				5EFDBAC8E9B4F2756BD75BE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +116,10 @@
 		200F991826C7B71E0048BA91 /* AfinitiTask */ = {
 			isa = PBXGroup;
 			children = (
-				200F991926C7B71E0048BA91 /* AppDelegate.swift */,
-				200F991B26C7B71E0048BA91 /* SceneDelegate.swift */,
-				200F991D26C7B71E0048BA91 /* ViewController.swift */,
-				200F991F26C7B71E0048BA91 /* Main.storyboard */,
-				200F992226C7B71F0048BA91 /* Assets.xcassets */,
-				200F992426C7B71F0048BA91 /* LaunchScreen.storyboard */,
+				200F994926C7D80A0048BA91 /* Main Files */,
+				200F994C26C7D85C0048BA91 /* Controllers */,
+				200F994B26C7D8370048BA91 /* Storyboards */,
+				200F994D26C7D8740048BA91 /* Assets */,
 				200F992726C7B71F0048BA91 /* Info.plist */,
 			);
 			path = AfinitiTask;
@@ -128,6 +143,64 @@
 			path = AfinitiTaskUITests;
 			sourceTree = "<group>";
 		};
+		200F994926C7D80A0048BA91 /* Main Files */ = {
+			isa = PBXGroup;
+			children = (
+				200F991926C7B71E0048BA91 /* AppDelegate.swift */,
+				200F991B26C7B71E0048BA91 /* SceneDelegate.swift */,
+			);
+			path = "Main Files";
+			sourceTree = "<group>";
+		};
+		200F994B26C7D8370048BA91 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				200F991F26C7B71E0048BA91 /* Main.storyboard */,
+				200F992426C7B71F0048BA91 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		200F994C26C7D85C0048BA91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				200F991D26C7B71E0048BA91 /* MultiThreadingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		200F994D26C7D8740048BA91 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				200F992226C7B71F0048BA91 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5EFDBAC8E9B4F2756BD75BE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27223026AE69367DF234D50D /* Pods_AfinitiTask.framework */,
+				550535203367ED3AD0B9EF48 /* Pods_AfinitiTask_AfinitiTaskUITests.framework */,
+				CC9F2D77C75BD3E5C7595F31 /* Pods_AfinitiTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37D074324DE09F1F2586E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A10A046D84990BAD099E709 /* Pods-AfinitiTask.debug.xcconfig */,
+				8DAA21D58F6DC57599637FBD /* Pods-AfinitiTask.release.xcconfig */,
+				BA4844648D55E39C3343732C /* Pods-AfinitiTask-AfinitiTaskUITests.debug.xcconfig */,
+				1E90418365859540BF64955B /* Pods-AfinitiTask-AfinitiTaskUITests.release.xcconfig */,
+				998DBA55B175C38C3413AABE /* Pods-AfinitiTaskTests.debug.xcconfig */,
+				A5D5F61EB7D7970E9AA99654 /* Pods-AfinitiTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200F994026C7B71F0048BA91 /* Build configuration list for PBXNativeTarget "AfinitiTask" */;
 			buildPhases = (
+				06EA2A3B44AD86CC79C67403 /* [CP] Check Pods Manifest.lock */,
 				200F991226C7B71E0048BA91 /* Sources */,
 				200F991326C7B71E0048BA91 /* Frameworks */,
 				200F991426C7B71E0048BA91 /* Resources */,
+				26364229F1A296475D0F1724 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200F994326C7B71F0048BA91 /* Build configuration list for PBXNativeTarget "AfinitiTaskTests" */;
 			buildPhases = (
+				13433D8919916B8E894A2E0F /* [CP] Check Pods Manifest.lock */,
 				200F992826C7B71F0048BA91 /* Sources */,
 				200F992926C7B71F0048BA91 /* Frameworks */,
 				200F992A26C7B71F0048BA91 /* Resources */,
@@ -170,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200F994626C7B71F0048BA91 /* Build configuration list for PBXNativeTarget "AfinitiTaskUITests" */;
 			buildPhases = (
+				2C09D08B34E4961B319F17FD /* [CP] Check Pods Manifest.lock */,
 				200F993326C7B71F0048BA91 /* Sources */,
 				200F993426C7B71F0048BA91 /* Frameworks */,
 				200F993526C7B71F0048BA91 /* Resources */,
+				C3DFFA9440CDBB0AABCDACB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +331,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06EA2A3B44AD86CC79C67403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AfinitiTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13433D8919916B8E894A2E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AfinitiTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26364229F1A296475D0F1724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask/Pods-AfinitiTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask/Pods-AfinitiTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask/Pods-AfinitiTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C09D08B34E4961B319F17FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AfinitiTask-AfinitiTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DFFA9440CDBB0AABCDACB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask-AfinitiTaskUITests/Pods-AfinitiTask-AfinitiTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask-AfinitiTaskUITests/Pods-AfinitiTask-AfinitiTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AfinitiTask-AfinitiTaskUITests/Pods-AfinitiTask-AfinitiTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		200F991226C7B71E0048BA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200F991E26C7B71E0048BA91 /* ViewController.swift in Sources */,
+				200F991E26C7B71E0048BA91 /* MultiThreadingViewController.swift in Sources */,
 				200F991A26C7B71E0048BA91 /* AppDelegate.swift in Sources */,
 				200F991C26C7B71E0048BA91 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +614,7 @@
 		};
 		200F994126C7B71F0048BA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A10A046D84990BAD099E709 /* Pods-AfinitiTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +633,7 @@
 		};
 		200F994226C7B71F0048BA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAA21D58F6DC57599637FBD /* Pods-AfinitiTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +652,7 @@
 		};
 		200F994426C7B71F0048BA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998DBA55B175C38C3413AABE /* Pods-AfinitiTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +674,7 @@
 		};
 		200F994526C7B71F0048BA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D5F61EB7D7970E9AA99654 /* Pods-AfinitiTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +696,7 @@
 		};
 		200F994726C7B71F0048BA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4844648D55E39C3343732C /* Pods-AfinitiTask-AfinitiTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +716,7 @@
 		};
 		200F994826C7B71F0048BA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E90418365859540BF64955B /* Pods-AfinitiTask-AfinitiTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
